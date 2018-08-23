@@ -24,7 +24,7 @@ function loadHandler()
 
 function handler()
 {
-  var url = './files/twitterdata.json?v=1.1.0';
+  var url = './files/twitterdata.json?v=1.1.1';
   $.getJSON(url)
   .done(function(data){
     tweet_name = data;
@@ -33,7 +33,7 @@ function handler()
 
 function content()
 {
-  var url = './files/tweets.json?v=1.1.0';
+  var url = './files/tweets.json?v=1.1.1';
   $.getJSON(url)
   .done(function(data){
     tweets_content = data;
